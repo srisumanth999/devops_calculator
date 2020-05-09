@@ -2,10 +2,10 @@ package calculator;
 public class Calculator {
 
 	public static void main(String[] args){
-		System.out.println("6 + 3 = " + add(6, 3));
-		System.out.println("6 - 3 = " + subtract(6,3));
-		System.out.println("6 * 3 = " + multiply(6,3));
-		System.out.println("6 / 3 = " + divide(6,3));
+		System.out.println("1 + 2 = " + add(1, 2));
+		System.out.println("1 - 2 = " + subtract(1,2));
+		System.out.println("1 * 2 = " + multiply(1,2));
+		System.out.println("1 / 2 = " + divide(1,2));
 	}
 
 	public static int add(int a, int b) {
