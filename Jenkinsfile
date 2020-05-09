@@ -1,4 +1,10 @@
 pipeline{
+  environment{
+       registry="srisumanth/devops_calculator"
+       registryCredential='dockerhub'
+       dockerImage='' 
+       dockerImageLatest=''
+     }
   agent any
   stages 
     {
