@@ -56,5 +56,7 @@ pipeline{
           """,
           jobId: "091facdb-23c0-4819-a155-16ef7c6434de"])
         }
+      }
+      }
   }
 }
